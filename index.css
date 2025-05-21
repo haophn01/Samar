@@ -1,0 +1,137 @@
+/* header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.nav__bar {
+    display: flex;
+}
+
+.nav__bar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff5f6d 0%,
+    #ffc371 51%,
+    #ff5f6d 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Carousel */
+.Carousel__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: #ff5f6d; */
+}
+
+.Carousel__left {
+  align-items: left;
+  background-color: #ffc371;
+  width: 100%;
+}
+
+.Carousel__right {
+  display: flex;
+  align-items: right;
+  background-color: #ff5f6d;
+  width: 100%;
+}
+
+/* Services */
+.Services__container, .Services__container p , .Service__items h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #ff5f6d; */
+}
+
+.Service__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  /* background-color: blue; */
+}
+
+/* About */
+.About__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: #ff5f6d; */
+}
+
+.About__left {
+  background-color: #ffc371;
+  flex-direction: column;
+  width: 60%;
+
+}
+
+.About__right {
+  display: flex;
+  align-items: left;
+  background-color: #ff5f6d;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+/* Number */
+.Number__container {
+  width: 100%;
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.number__content {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+.number__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number__item img {
+  height: 40px;
+  width: 40px;
+}
