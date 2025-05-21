@@ -1,20 +1,20 @@
 /* header */
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blueviolet; */
 }
 
 .nav__bar {
-    display: flex;
+  display: flex;
 }
 
 .nav__bar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-grad {
@@ -44,13 +44,12 @@
   text-decoration: none;
 }
 
-
 /* Carousel */
 .Carousel__container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    /* background-color: #ff5f6d; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* background-color: #ff5f6d; */
 }
 
 .Carousel__left {
@@ -67,13 +66,15 @@
 }
 
 /* Services */
-.Services__container, .Services__container p , .Service__items h3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    /* background-color: #ff5f6d; */
+.Services__container,
+.Services__container p,
+.Service__items h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: #ff5f6d; */
 }
 
 .Service__items {
@@ -86,17 +87,16 @@
 
 /* About */
 .About__container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    /* background-color: #ff5f6d; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* background-color: #ff5f6d; */
 }
 
 .About__left {
   background-color: #ffc371;
   flex-direction: column;
   width: 60%;
-
 }
 
 .About__right {
@@ -105,7 +105,6 @@
   background-color: #ff5f6d;
   flex-direction: column;
   width: 100%;
-
 }
 
 /* Number */
@@ -134,4 +133,34 @@
 .number__item img {
   height: 40px;
   width: 40px;
+}
+
+/* Feature */
+.feature__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__left {
+  width: 40%;
+}
+
+.feature__right {
+ 
+}
+
+.feature__right img {
+  height: 50%;
+  width: 50%;
+}
+
+.image img {
+  height: 60px;
+  width: 60px;
 }
